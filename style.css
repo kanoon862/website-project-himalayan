@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-	max-width: 960px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 20px;
 }
@@ -23,7 +23,7 @@ body {
 header {
 	background-color: #b4a786;
 	color: #fff;
-	padding: 10px 20px;
+	padding: 1px 1px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -60,11 +60,11 @@ nav a:hover {
 
 main {
 	padding: 20px 0;
-	margin-top: 75px; /* to account for fixed header */
+	margin-top: 80px; /* to account for fixed header */
 }
 
 h1, h2, h3 {
-	margin: 10px 0;
+	margin: 8px 0;
 }
 
 h1 a {
@@ -73,7 +73,7 @@ h1 a {
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 50px;
     background-color: blue;
 }
 

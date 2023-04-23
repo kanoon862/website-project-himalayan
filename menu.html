@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu | Himalayan Eats</title>
+	<link rel="stylesheet" href="style.css">
+    #Got this code from Stackflow
+    <script> 
+		window.addEventListener('load', function() {
+			var acc = document.getElementsByClassName("accordion");
+			for (var i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+						panel.style.display = "none";
+					} else {
+						panel.style.display = "block";
+					}
+				});
+			}
+		});
+	</script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1><a href="/">Himalayan Eats</a></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://www.opentable.com" target="b
+                        "  class="menulink">Book your table</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<h2>Our Menu</h2>
+			<p>Check out our delicious menu items below:</p>
+            <button class="accordion">Appetizers</button>
+				<div class="panel">
+			    <ul>
+				    <li>
+                <h3>Appetizers</h3>
+				<ul>
+					<li>
+							<h4>Samosa</h4>
+							<p>A crispy, deep-fried pastry filled with spiced vegetables or meat.</p>
+							<span>$4.99</span>
+						</li>
+						<li>
+							<h4>Momo</h4>
+							<p>A traditional Nepali dumpling filled with ground meat or vegetables, served with a spicy dipping sauce.</p>
+							<span>$6.99</span>
+						</li>
+						<li>
+							<h4>Chatamari</h4>
+							<p>A thin, crepe-like dish made with rice flour and topped with ground meat, vegetables, and herbs.</p>
+							<span>$8.99</span>
+						</li>
+					</ul>
+                </div>
+				<button class="accordion">Entrees</button>
+				<div class="panel">
+					<ul>
+						<li>
+                    <h3>Entrees</h3>
+					<ul>
+						<li>
+							<h4>Dal Bhat</h4>
+							<p>A classic Nepali dish featuring lentil soup, rice, and a variety of vegetable sides.</p>
+							<span>$12.99</span>
+						</li>
+						<li>
+							<h4>Momo Curry</h4>
+							<p>A hearty curry made with Nepali dumplings and vegetables, served over rice.</p>
+							<span>$16.99</span>
+						</li>
+						<li>
+							<h4>Thukpa</h4>
+							<p>A hot and spicy noodle soup with meat or vegetables, popular in the Himalayan region.</p>
+							<span>$19.99</span>
+						</li>
+					</ul>
+				</div>
+				<button class="accordion">Desserts</button>
+				<div class="panel">
+					<ul>
+						<li>
+					<h3>Desserts</h3>
+					<ul>
+						<li>
+							<h4>Rasgulla</h4>
+							<p>A sweet and spongy Nepali dessert made with cheese balls and soaked in syrup.</p>
+							<span>$7.99</span>
+						</li>
+						<li>
+							<h4>Lalmohan</h4>
+							<p>A soft and syrupy Nepali dessert made with flour and soaked in rosewater.</p>
+							<span>$6.99</span>
+						</li>
+						<li>
+                            <h4>Ask for our house special!</h4>
+                        </ul>
+                    </div>
+                </main>
+                <footer>
+                    <div class="container">
+                        <p>&copy; 2023 Himalayan Eats</p>
+                    </div>
+                </footer>
+            </body>
+            </html>

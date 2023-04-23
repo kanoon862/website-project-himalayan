@@ -1,1 +1,77 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Himalayan Eats</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1><a href="index.html">Himalayan Eats</a></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="https://www.opentable.com" target="b
+                        "  class="menulink">Book your table</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<main>
+		<div class="container">
+			<h2>Welcome to Himalayan Eats</h2>
+			<p>At Himalayan Eats, we pride ourselves on serving up the tastiest dishes using only the freshest ingredients. Whether you're in the mood for a hearty meal or a light bite, we have something to satisfy every appetite.</p>
+            <a href="https://www.ubereats.com" class="btn"> Order Now  </a>
+           
+            <div class="slideshow">
+				<div><img src="img/slide1.jpg" alt="Slide 1"></div>
+				<div><img src="img/slide2.jpg" alt="Slide 2"></div>
+				<div><img src="img/slide3.jpg" alt="Slide 3"></div>
+			
+		</div>
+        <style>
+            .slideshow-container {
+                text-align: center;
+            }
+        </style>
+	</main>
+	
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Himalayan Eats. All rights reserved.</p>
+		</div>
+	</footer>
+	
+	<script>
+		$(document).ready(function(){
+			$('.slideshow').slick({
+				dots: true,
+				arrows: false,
+				autoplay: true,
+				autoplaySpeed: 3500
+			});
+			$('.button-primary').hover(function(){
+				$(this).css('background-color', '#ff5722');
+			}, function(){
+				$(this).css('background-color', '#e65100');
+			});
+			$('.button-secondary').hover(function(){
+				$(this).css('background-color', '#fff');
+				$(this).css('color', '#e65100');
+			}, function(){
+				$(this).css('background-color', '#e65100');
+				$(this).css('color', '#fff');
+			});
+		});
+	</script>
+</body>
+</html>

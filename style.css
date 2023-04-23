@@ -1,0 +1,155 @@
+/* Reset CSS */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Base Styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.5;
+	background-color: #f7f7f7;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	background-color: #b4a786;
+	color: #fff;
+	padding: 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav {
+	float: right;
+	margin-top: 5px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav ul li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 20px 0;
+	margin-top: 75px; /* to account for fixed header */
+}
+
+h1, h2, h3 {
+	margin: 10px 0;
+}
+
+h1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 30px;
+    background-color: blue;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	margin-bottom: 20px;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+	header {
+		padding: 10px;
+	}
+
+	nav {
+		float: none;
+		margin-top: 10px;
+	}
+
+	nav ul li {
+		display: block;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+
+	main {
+		margin-top: 120px; /* to account for header and some additional spacing */
+	}
+}
+
+@media (max-width: 479px) {
+	h2 {
+		font-size: 28px;
+	}
+
+	h3 {
+		font-size: 22px;
+	}
+}
+
+body {
+	background-color: lightblue;
+}
+
+header {
+	background-color: red;
+}
+
+.button-primary {
+	background-color: red;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.slideshow img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
